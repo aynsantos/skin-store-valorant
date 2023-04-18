@@ -12,8 +12,10 @@ import javax.validation.constraints.Size;
 
 public class AdminDTO {
 
-    @Size(min = 3, max = 30, message = "Nome inválido!(3-30 Caracteres")
+    @Size(min = 3, max = 10, message = "Nome inválido!(3-10 Caracteres")
     private String name;
+    @Size(min = 3, max = 10, message = "Nome inválido!(3-10 Caracteres")
+    private String lastName;
     @Size(min = 3, max = 10, message = "Username inválido!(3-10 Caracteres")
     private String username;
     @Size(min = 5, max = 10, message = "Password inválido!(5-10 Caracteres")
