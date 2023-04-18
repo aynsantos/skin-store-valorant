@@ -1,7 +1,8 @@
-package com.scoder.library.config;
+package com.scoder.admin.config;
 
 import com.scoder.library.model.Admin;
 import com.scoder.library.repository.AdminRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,6 +12,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.stream.Collectors;
 
 public class AdminServiceConfig implements UserDetailsService {
+
+    @Autowired
     private AdminRepository adminRepository;
 
     @Override

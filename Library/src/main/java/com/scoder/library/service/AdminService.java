@@ -6,7 +6,9 @@ import com.scoder.library.model.Admin;
 
 public interface AdminService {
 
-    Admin findByUserName (String username);
+    Admin findByUsername (String username);
+
+    Admin save(AdminDTO adminDto);
 
 
 }

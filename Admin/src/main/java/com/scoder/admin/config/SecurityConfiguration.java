@@ -1,4 +1,4 @@
-package com.scoder.library.config;
+package com.scoder.admin.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

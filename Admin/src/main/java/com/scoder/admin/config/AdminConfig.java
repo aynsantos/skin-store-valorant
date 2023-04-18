@@ -1,4 +1,4 @@
-package com.scoder.library.config;
+package com.scoder.admin.config;
 
 import com.scoder.library.model.Admin;
 import com.scoder.library.model.Role;
