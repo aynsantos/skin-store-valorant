@@ -1,5 +1,6 @@
 package com.scoder.library.dto;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,4 +22,6 @@ public class AdminDTO {
     @Size(min = 5, max = 10, message = "Password inválido!(5-10 Caracteres")
     private String password;
     private String confirmPassword;
+
+
 }

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Arrays;
-import java.util.Collections;
+
 
 
 @Service
@@ -41,6 +41,7 @@ public class AdminServiceImpl implements AdminService {
         admin.setPassword(adminDTO.getPassword());
         admin.setRoles(Arrays.asList(roleRepository.findByName("ADMIN")));
         return adminRepository.save(admin);
+
     }
 
 
