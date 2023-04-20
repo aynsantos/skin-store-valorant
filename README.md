@@ -1,4 +1,6 @@
 # Skin Store Valorant
+
+```Run AdminApplication.java```
 ___
 
 ## Endpoints
